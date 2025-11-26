@@ -1,0 +1,59 @@
+
+ #littel{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    color: green;
+    text-align: center; 
+} 
+
+#home{
+   background-color: black;
+   color: white;
+   text-align: center;
+   padding: 15px;
+   border-radius: 15px;
+   text-decoration:none;
+  
+}
+#home{
+    color: white;
+}
+
+#div{
+    background-image: url(eat1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    bottom: 15px;
+    border-radius: 15px;
+    padding: 10px 1px 1px 10px;
+    color: white;
+    background-position:left;
+}
+
+#div1{
+    background-color: rgb(236, 191, 136);
+    width: 25%;
+    height: 400;
+    padding: 20px;
+    border: 2px;
+    margin: 10px;
+    border-radius: 15px;
+    text-decoration:none;
+    text-align: center;
+    float: left; 
+}
+
+#img{
+    width: 100%;
+    height: 200px;
+    border-radius: 7px;
+}
+footer{
+    clear: both;
+}
+@media screen and (max-width:600px){
+    #img{
+        width: 90%;
+    }
+}
